@@ -1,9 +1,12 @@
+// // warn user evry 5s that his is running out of pancakes
 // // calculate fibonacci number
-// // get bitcoin price
+// // get bitcoin price with xhr
+// // get bitcoin price with axios
+
 // const axios = require('axios');
 // var XMLHttpRequest = require("xmlhttprequest").XMLHttpRequest;
 
-// get pitcoin price
+// // get pitcoin price with xhr
 // function bt_price() {
 //     var url = "https://api.coindesk.com/v1/bpi/currentprice/BTC.json";
 //     var xhr = new XMLHttpRequest();
@@ -31,8 +34,3 @@
 
 // console.log('Bitcoin price', bt_price());
 // console.log('Bitcoin price', bt_price_axios());
-
-// warn user evry 5s that his is running out of pancakes
-setInterval(function() {
-    console.log('Pancakes are running out!');
-}, 5000);

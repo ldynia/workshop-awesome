@@ -1,5 +1,7 @@
 #!/usr/bin/env bash
 
+# chech if variable is set
+
 GH_TOKEN=""
 
 # chech if variable is set
